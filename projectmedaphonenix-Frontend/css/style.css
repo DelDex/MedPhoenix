@@ -1,0 +1,525 @@
+/*general css file for */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    background: rgb(166,193,238);
+    background: linear-gradient(190deg, #A6C1EE 0%, #FBC2EB 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin:0;
+    background-attachment: fixed;
+}
+.med-phon-loginform i{
+    margin-top: 24px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.med-phon-login h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.med-phon-loginform .med-login-link p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.form-control {
+    line-height: 2.0!important;
+    border-radius: 10px;
+    justify-content: center;
+}
+.form-check-label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.med-recov-pass span{
+    color: red;
+    font-weight: 400;
+    font-size: 12px;
+}
+.med-profile-logo img{
+    background-color: #ffd88d;
+    border-radius: 5rem;
+}
+.med-profile-desc{
+    text-align: center;
+    margin-top: 1.6rem;
+}
+.med-profile-button{
+    padding-top:1.6rem;
+}
+.med-profile-button button{
+    outline: none;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 8px 24px rgba(255, 87, 92, 0.25);
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    border:none;
+    background-color: #9475AD;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.med-bottom-button {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.med-bottom-button:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -11px;
+    right: 160px;
+    width: 50px;
+    border-radius: 5rem;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(183deg);
+    background: rgb(166,193,238);
+    background: #FBC2EB;
+    z-index: -1;
+}
+.med-reminder-sec{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.med-medication-sec{
+    margin-top: 2rem;
+}
+.med-medication-reminder{
+    margin-top:2rem;
+}
+.med-medication-medic h6{
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.med-medication-color h6{
+    margin-top: 2rem;
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem; 
+}
+.med-medication-name {
+    margin-top:2rem;
+}
+.med-medication-name span{
+    color:#000;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+}
+.med-medication-image-set1{
+    margin-top:1rem;
+    padding:0 0 0 0.5rem;
+}
+.med-medication-image-set1 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-image-set2{
+    margin-top:1rem;
+    padding:0 0.5rem 0 0.5rem;
+}
+.med-medication-image-set2 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    border-radius: 100px;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-color-image-set1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-color-image-set2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-reminder .form-check-input{
+    color: #fff;
+    background-color: #9475AD;
+}
+.med-medication-reminder .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5rem;
+}
+.med-medication-reminder .form-switch {
+    border: 1px solid #fff;
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+.med-medication-reminder .form-check-input{
+    margin-right: 1rem;
+}
+.med-medication-reminder .form-switch .form-check-input {
+    width: 2em;
+    margin-left: -2.5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+}
+.med-selection select{
+    outline: none;
+    word-wrap: normal;
+    width: 170px;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+    color: #fff;
+    text-align: center;
+    background-color: #9475AD;
+}
+.med-selection-button{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.med-selection-button span{
+    background-color: #fff;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+}
+
+/*---------for mobile design--------*/
+@media(max-width:576px){
+.med-phon-img1 img {
+        width: 260px;
+        height: 303px;
+    }
+.med-button-class .form-control {
+    line-height: 1.5!important;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+.form-control {
+    line-height: 3.2!important;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.med-profile-logo img{
+    background-color: #ffd88d;
+    border-radius: 5rem;
+}
+.med-profile-desc{
+    text-align: center;
+    margin-top: 1.6rem;
+}
+.med-profile-button{
+    padding-top:1.6rem;
+}
+.med-profile-button button{
+    outline: none;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 8px 24px rgba(255, 87, 92, 0.25);
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    border:none;
+    background-color: #9475AD;
+    width: 250px;
+    height: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.med-bottom-button {
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.med-bottom-button img{
+    width:50px;
+    height: 50px;
+    margin-top: -0.6rem;
+}
+.med-bottom-button:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -11px;
+    right: 170px;
+    width: 50px;
+    border-radius: 5rem;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(183deg);
+    background: rgb(166,193,238);
+    background: #FBC2EB;
+    z-index: -1;
+}
+.med-profile-desc img{
+    height: 220px;
+}
+.med-medication-sec{
+    margin-top: 2rem;
+}
+.med-medication-reminder{
+    margin-top:2rem;
+}
+.med-medication-medic h6{
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.med-medication-color h6{
+    margin-top: 2rem;
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem; 
+}
+.med-medication-name {
+    margin-top:2rem;
+}
+.med-medication-name span{
+    color:#000;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+}
+.med-medication-image-set1{
+    margin-top:1rem;
+    padding:0 0 0 0.5rem;
+}
+.med-medication-image-set1 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-image-set2{
+    margin-top:1rem;
+    padding:0 0.5rem 0 0.5rem;
+}
+.med-medication-image-set2 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    border-radius: 100px;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-color-image-set1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-color-image-set2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-reminder .form-check-input{
+    color: #fff;
+    background-color: #9475AD;
+}
+.med-medication-reminder .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5rem;
+}
+.med-medication-reminder .form-switch {
+    border: 1px solid #fff;
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+.med-medication-reminder .form-check-input{
+    margin-right: 1rem;
+}
+.med-medication-reminder .form-switch .form-check-input {
+    width: 2em;
+    margin-left: -2.5em;    
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+}
+.med-selection select{
+    outline: none;
+    word-wrap: normal;
+    width: 170px;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+    color: #fff;
+    text-align: center;
+    background-color: #9475AD;
+}
+.med-selection-button{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.med-selection-button span{
+    background-color: #fff;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+}
+.med-medication-next button{
+    border:none;
+    color:#fff;
+    background: linear-gradient(180deg, #9475AD 0%, #9475AD 100%);
+    border-radius: 23px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+}
+.med-input-range1 input[type="range"] {
+    position: absolute;
+    top: 26%;
+    transform: rotate(270deg);
+ }
+ .med-input-range1 .float-endss{
+    position: absolute;
+    top: 35%;
+    left: 3.5rem;
+    color: #9475AD;
+ }
+ .med-input-range2 input[type="range"] {
+    position: absolute;
+    left: 5.5rem;
+    top: 26%;
+
+    transform: rotate(270deg);
+ }
+ .med-input-range2 .float-endss{
+    position: absolute;
+    left: 8.1rem;
+    top: 35%;
+    color: #9475AD;
+ }
+ .med-input-range3 input[type="range"] {
+    position: absolute;
+    left:10rem;
+    top: 26%;
+    transform: rotate(270deg);
+ }
+ .med-input-range3 .float-endss{
+    position: absolute;
+    left: 13.1rem;
+    top: 35%;
+    color: #9475AD;
+ }
+}
+
+/*--calendar css--*/
+#calendar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    font-family: "Lato", sans-serif;
+  }
+  #calendar_weekdays div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #calendar_content,
+  #calendar_weekdays,
+  #calendar_header {
+    position: relative;
+    width: 320px;
+    overflow: hidden;
+    float: left;
+    z-index: 10;
+  }
+  #calendar_weekdays div,
+  #calendar_content div {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #ffffff;
+    color: #787878;
+  }
+  #calendar_content {
+    -webkit-border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+    border-radius: 0px 0px 12px 12px;
+  }
+  #calendar_content div {
+    float: left;
+  }
+  #calendar_content div:hover {
+    background-color: #f8f8f8;
+  }
+  #calendar_content div.blank {
+    background-color: #e8e8e8;
+  }
+  #calendar_header,
+  #calendar_content div.today {
+    zoom: 1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+  }
+  #calendar_content div.today {
+    color: #ffffff;
+  }
+  #calendar_header {
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    background-color: #ff6860;
+    padding: 18px 0;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
+  }
+  #calendar_header h1 {
+    font-size: 1.5em;
+    color: #ffffff;
+    float: left;
+    width: 70%;
+  }
+  i[class^="icon-chevron"] {
+    color: #ffffff;
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+  }
+  
